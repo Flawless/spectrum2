@@ -1,4 +1,4 @@
-FROM fedora:23
+FROM fedora:25
 
 EXPOSE 5222
 VOLUME ["/etc/spectrum2/transports", "/var/lib/spectrum2"]
